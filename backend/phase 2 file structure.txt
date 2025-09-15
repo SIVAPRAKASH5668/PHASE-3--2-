@@ -1,0 +1,46 @@
+polyresearch-agent/
+├── src/
+│   ├── app/
+│   │   └── main.py                     ✅ COMPLETED
+│   ├── api/
+│   │   ├── graph_routes.py            ✅ COMPLETED  
+│   │   ├── paper_routes.py            ✅ COMPLETED
+│   │   └── translation_routes.py      ✅ COMPLETED (Generated)
+│   ├── core/
+│   │   ├── llm_processor.py           ✅ COMPLETED
+│   │   ├── embedding_generator.py     ✅ COMPLETED (Generated)
+│   │   ├── language_detector.py       ✅ COMPLETED (Generated)
+│   │   ├── translation_service.py     ✅ COMPLETED (Generated)
+│   │   ├── multi_ai_agent.py          ✅ COMPLETED (Generated)
+│   │   └── graph_builder.py           ✅ COMPLETED 
+│   │   └── singleton_manager.py       ✅ COMPLETED
+│   ├── database/
+│   │   ├── tidb_client.py             ✅ COMPLETED
+│   │   └── vector_operations.py       ✅ COMPLETED
+│   │   └── master_client.py           ✅ COMPLETED 
+│   ├── workflow/
+│   │   ├── langgraph_workflow.py      ✅ COMPLETED
+│   │   └── multilingual_workflow.py   ✅ COMPLETED (Generated)
+│   ├── integrations/
+│   │   ├── arxiv_client.py            ✅ COMPLETED
+│   │   ├── pubmed_client.py           ✅ COMPLETED
+│   │   ├── kimi_client.py             ✅ COMPLETED (Generated)
+│   │   └── translation_client.py    
+│   │   └── crossref_client.py   
+│   │   └── core_client.py 
+│   ├── agents/
+│   │   ├── paper_analyzer_agent.py    
+│   │   ├── relationship_agent.py      
+│   │   └── coordinator_agent.py       
+│   ├── utils/
+│   │   ├── text_processing.py         
+│   │   └── language_utils.py          
+│   ├── frontend/
+│   │   ├── static/
+│   │   ├── templates/
+│   │   └── components/
+│   └── config/
+│       └── settings.py                ✅ COMPLETED (Needs update)
+├── requirements.txt                   ✅ COMPLETED (Enhanced)
+├── .env                              ✅ COMPLETED (Enhanced)
+

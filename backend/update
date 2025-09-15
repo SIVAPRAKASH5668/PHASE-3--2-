@@ -1,0 +1,4 @@
+we need to align this in our system:
+need to update this project that user search a topic that can be in any language,our system need to translate to multiple language and use these words as keyword for finding research papers.beacuse for ex:let serach machine learning the results will be in machine learning papers in english,but as per our new update if user search machine learning convert this into other languages like German, French, Spanish, and Chinese have some published research so that we can get those paper too.
+using that paper we will use kimi api,2  groq api, that process each paper understand the paper's context very detaily, that will be used to build a interconnected graph node using that user can check the different paper related to other paper using our graph nodes.
+we use langraph,multi api agent( for fast understanding and paper context preparation using llm ) , multi ai agent .

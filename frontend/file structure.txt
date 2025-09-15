@@ -1,0 +1,40 @@
+src/
+├── components/
+│   ├── common/
+│   │   ├── ErrorBoundary.jsx
+│   │   ├── QuickActions.jsx
+│   │   └── EmptyState.jsx
+│   ├── graph/
+│   │   ├── GraphViewer.jsx
+│   │   └── GraphControls.jsx
+│   ├── layout/
+│   │   ├── TopBar.jsx
+│   │   ├── MainContent.jsx
+│   │   └── StatusBar.jsx
+│   ├── panels/
+│   │   ├── NodeInspector.jsx
+│   │   └── ControlPanel.jsx
+│   ├── search/
+│   │   ├── SearchInterface.jsx
+│   │   └── SearchAutocomplete.jsx
+│   └── ui/
+│       ├── Button.jsx
+│       ├── Badge.jsx
+│       ├── LoadingScreen.jsx
+│       └── ProgressBar.jsx
+├── contexts/
+│   └── AppContext.jsx
+├── hooks/
+│   ├── useResearchData.js
+│   ├── useGraphVisualization.js
+│   └── useKeyboardShortcuts.js
+├── styles/
+│   ├── modern.css
+│   ├── components.css
+│   ├── animations.css
+│   └── responsive.css
+├── utils/
+│   ├── graphHelpers.js
+│   └── constants.js
+├── App.jsx
+└── main.jsx

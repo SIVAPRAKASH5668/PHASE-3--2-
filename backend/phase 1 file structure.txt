@@ -1,0 +1,29 @@
+polyresearch-agent/
+├── src/
+│   ├── app/
+│   │   └── main.py                     ✅ FastAPI application entry point
+│   ├── api/
+│   │   ├── graph_routes.py            ✅ Graph API endpoints
+│   │   └── paper_routes.py            ✅ Paper API endpoints
+│   ├── core/
+│   │   ├── llm_processor.py           ✅ High-speed LLM analysis engine
+│   │   └── graph_builder.py           📝 Graph visualization builder
+│   ├── database/
+│   │   └── tidb_client.py             ✅ Enhanced database client
+│   ├── workflow/
+│   │   └── langgraph_workflow.py      ✅ Main processing workflow
+│   ├── integrations/
+│   │   ├── arxiv_client.py            ✅ ArXiv API integration
+│   │   └── pubmed_client.py           ✅ PubMed API integration
+│   ├── frontend/
+│   │   ├── static/
+│   │   │   ├── css/
+│   │   │   ├── js/
+│   │   │   └── assets/
+│   │   └── templates/
+│   │       └── graph.html             ✅ Interactive visualization
+│   └── config/
+│       └── settings.py                ✅ Configuration management
+├── requirements.txt                   📝 Python dependencies
+├── .env                              📝 Environment variables
+└── README.md                         📝 Project documentation

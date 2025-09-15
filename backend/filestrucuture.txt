@@ -1,0 +1,53 @@
+polyresearch-agent/
+├── src/
+│   ├── __init__.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   └── database.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── ocr_processor.py
+│   │   ├── speech_processor.py
+│   │   ├── language_detector.py
+│   │   ├── embeddings.py
+│   │   ├── llm_processor.py        # ✅ Multi-API processing
+│   │   ├── rag_system.py           # ✅ RAG implementation  
+│   │   └── graph_builder.py        # ✅ Intelligent graphs
+│   ├── database/
+│   │   ├── __init__.py
+│   │   ├── tidb_client.py          # ✅ Fixed with serialization
+│   │   └── vector_operations.py
+│   ├── integrations/
+│   │   ├── __init__.py
+│   │   ├── arxiv_client.py         # ✅ Working perfectly
+│   │   ├── pubmed_client.py        # ✅ Working perfectly
+│   │   └── core_client.py
+│   ├── workflow/
+│   │   ├── __init__.py
+│   │   ├── langgraph_workflow.py   # ✅ Context-aware processing
+│   │   └── graph_builder.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── graph_routes.py         # ✅ Advanced graph API
+│   │   └── paper_routes.py         # ✅ Paper management
+│   ├── frontend/
+│   │   ├── __init__.py
+│   │   ├── static/
+│   │   │   ├── css/
+│   │   │   │   └── graph.css       # ✅ Interactive UI
+│   │   │   └── js/
+│   │   │       ├── graph-viz.js
+│   │   │       └── paper-details.js
+│   │   └── templates/
+│   │       ├── graph.html
+│   │       └── paper-modal.html
+│   └── app/
+│       ├── __init__.py
+│       ├── main.py                 # ✅ Production FastAPI
+│       └── demo.py
+├── tests/
+├── data/
+├── requirements.txt
+├── .env
+└── README.md
